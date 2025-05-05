@@ -54,6 +54,7 @@ public class SubmitOrderTest extends BaseTest{
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		System.out.println("sample test");
 		System.out.println("testing git");
+		System.out.println("testing git2");
 
 	}
 	
