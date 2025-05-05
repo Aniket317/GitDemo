@@ -37,7 +37,7 @@ public class StandAloneTest {
 	WebElement prod =	products.stream().filter(product->
 		product.findElement(By.cssSelector("b")).getText().equals(productName)).findFirst().orElse(null);
 		prod.findElement(By.cssSelector(".card-body button:last-of-type")).click();
-		
+		System.out.println("test from EST");
 		
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#toast-container")));
 		//ng-animating

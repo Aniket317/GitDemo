@@ -55,6 +55,8 @@ public class SubmitOrderTest extends BaseTest{
 		System.out.println("sample test");
 		System.out.println("testing git");
 		System.out.println("testing git2");
+		
+		System.out.println("added test from EST");
 
 	}
 	
