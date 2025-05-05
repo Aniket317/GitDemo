@@ -53,6 +53,7 @@ public class SubmitOrderTest extends BaseTest{
 		String confirmMessage = confirmationPage.getConfirmationMessage();
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		System.out.println("sample test");
+		System.out.println("testing git");
 
 	}
 	
