@@ -24,7 +24,11 @@ public class ErrorValidationsTest extends BaseTest {
 	
 		landingPage.loginApplication("anshika@gmail.com", "Iamki000");
 		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
-
+		System.out.println("sample test");
+		System.out.println("testing git");
+		System.out.println("testing git2");
+		
+		System.out.println("added test from EST");
 	}
 	
 
